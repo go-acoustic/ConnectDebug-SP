@@ -22,7 +22,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Connect",
-            targets: ["Connect", "EOCore"]),
+            targets: ["Connect", "Tealeaf", "EOCore"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -34,8 +34,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Connect",
-            url: "https://github.com/go-acoustic/Connect/releases/download/10.6.288/Connect_XCFramework_Debug.zip",
-            checksum: "964a082267f8a5a3925520ad0269904730667c6be5fe33cfe63db989cfd9bc28"),
+            url: "https://github.com/go-acoustic/Connect/releases/download/1.0.14/Connect_XCFramework_Debug.zip",
+            checksum: "d9a0b730446839b269e714b22bf7c4899cd3dbffee2088dd7e601e0568615f06"),
         .binaryTarget(
             name: "Tealeaf",
             url: "https://github.com/go-acoustic/Tealeaf/releases/download/10.6.288/Tealeaf_XCFramework_Debug.zip",
