@@ -34,15 +34,17 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Connect",
-            url: "https://github.com/go-acoustic/Connect/releases/download/1.0.40/Connect_XCFramework_Debug.zip",
-            checksum: "ce0e5d44150b77d468682199c518dfffc3891c2743aebe2e6b8eb015e312f439"),
+            url: "https://github.com/go-acoustic/Connect/releases/download/1.0.41/Connect_XCFramework_Debug.zip",
+            checksum: "79da5859e1506306b565e883f5bd6eb6980035c7b38d3c58f15b6df31e04883a"),
         .binaryTarget(
             name: "Tealeaf",
-            url: "https://github.com/go-acoustic/Tealeaf/releases/download/10.6.288/Tealeaf_XCFramework_Debug.zip",
-            checksum: "964a082267f8a5a3925520ad0269904730667c6be5fe33cfe63db989cfd9bc28"),
+            url: "https://github.com/go-acoustic/Tealeaf/releases/download/10.6.309
+/Tealeaf_XCFramework_Debug.zip",
+            checksum: "Not"),
         .binaryTarget(
             name: "EOCore",
-            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.273/EOCore_XCFramework_Debug.zip",
-            checksum: "dc8a0476c87c9ce2bf072d954d7a29e948ff0345016d8f3be129001f2077004c"),
+            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.296
+/EOCore_XCFramework_Debug.zip",
+            checksum: "Not"),
     ]
 )
