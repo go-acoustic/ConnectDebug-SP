@@ -2,7 +2,7 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Copyright (C) 2025 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2026 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -34,15 +34,15 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Connect",
-            url: "https://github.com/go-acoustic/Connect/releases/download/1.0.70/Connect_XCFramework_Debug.zip",
-            checksum: "8e68e5e0232a30ed7a88e45517768a9520f56fa28f072188c633b0f6d1c24a56"),
+            url: "https://github.com/go-acoustic/Connect/releases/download/1.0.71/Connect_XCFramework_Debug.zip",
+            checksum: "68525eecf3da8f11769075367ee54173afc213c89c3f6f89b6b83d83c0a4a75b"),
         .binaryTarget(
             name: "Tealeaf",
             url: "https://github.com/go-acoustic/Tealeaf/releases/download/10.6.327/Tealeaf_XCFramework_Debug.zip",
             checksum: "75d27f8197c22aa25b282adab0e373f449e2b64e0b6116bea4877f6c4a5f3ff5"),
         .binaryTarget(
             name: "EOCore",
-            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.323/EOCore_XCFramework_Debug.zip",
-            checksum: "36e24fb6edfcf5eef151482754aaf68197c8d555bf8d954055c26438615ff283"),
+            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.326/EOCore_XCFramework_Debug.zip",
+            checksum: "5b89c29a49c3b47220b85d6e020d80cebdbf823df15dfdf5a19662e367130307"),
     ]
 )
