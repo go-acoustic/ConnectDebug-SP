@@ -34,8 +34,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Connect",
-            url: "https://github.com/go-acoustic/Connect/releases/download/1.0.100/Connect_XCFramework_Debug.zip",
-            checksum: "686513ee18061d1ccc8296308e5f6f767870bbf00f6b2979acdd452f25d8daaf"),
+            url: "https://github.com/go-acoustic/Connect/releases/download/1.0.101/Connect_XCFramework_Debug.zip",
+            checksum: "7fd2c64ce619d04d9086a25171605b914b7608ff4e83a35bdae21602c7aa2f5b"),
         .binaryTarget(
             name: "Tealeaf",
             url: "https://github.com/go-acoustic/Tealeaf/releases/download/10.6.335/Tealeaf_XCFramework_Debug.zip",
