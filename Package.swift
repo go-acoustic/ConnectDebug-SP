@@ -1,5 +1,5 @@
 
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
 // Copyright (C) 2026 Acoustic, L.P. All rights reserved.
@@ -16,7 +16,7 @@ print("Using Connect debug version, if you need release version use https://gith
 let package = Package(
     name: "Connect",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -34,8 +34,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Connect",
-            url: "https://github.com/go-acoustic/Connect/releases/download/2.0.7/Connect_XCFramework_Debug.zip",
-            checksum: "14149a3503ab7276a5e6183ad49a0fe93284d515f7be007a7ce26426ca3e8ea7"),
+            url: "https://github.com/go-acoustic/Connect/releases/download/2.0.8/Connect_XCFramework_Debug.zip",
+            checksum: "8f8eea532f47807c09826ddea1afbdbf71aed6d05f208de632eeba9cae993782"),
         .binaryTarget(
             name: "Tealeaf",
             url: "https://github.com/go-acoustic/Tealeaf/releases/download/10.6.336/Tealeaf_XCFramework_Debug.zip",
