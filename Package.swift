@@ -19,30 +19,15 @@ let package = Package(
         .iOS(.v15)
     ],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Connect",
-            targets: ["Connect", "Tealeaf", "EOCore"]),
+            targets: ["Connect"]),
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
-        //
-    ],
+    dependencies: [],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Connect",
-            url: "https://github.com/go-acoustic/Connect/releases/download/2.0.8/Connect_XCFramework_Debug.zip",
-            checksum: "8f8eea532f47807c09826ddea1afbdbf71aed6d05f208de632eeba9cae993782"),
-        .binaryTarget(
-            name: "Tealeaf",
-            url: "https://github.com/go-acoustic/Tealeaf/releases/download/10.6.336/Tealeaf_XCFramework_Debug.zip",
-            checksum: "a4c5260306dc8189d2d0394d61c0fc28e2c34f045dc933851a89975eecdc5e70"),
-        .binaryTarget(
-            name: "EOCore",
-            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.338/EOCore_XCFramework_Debug.zip",
-            checksum: "b654fd862ca5d3a1f1865333a72c45f5e99983c037e05458af700819a7046ff6"),
+            url: "https://github.com/go-acoustic/Connect/releases/download/2.0.9/Connect_XCFramework_Debug.zip",
+            checksum: "ef839b3d9c39cfe51ab5711e43c218af3c629327c6eb0e37e8af7c179e2e5763"),
     ]
 )
