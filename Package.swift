@@ -27,7 +27,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Connect",
-            url: "https://github.com/go-acoustic/Connect/releases/download/2.1.4/Connect_XCFramework_Debug.zip",
-            checksum: "414126df6190bed45dc235531e4cd4cbbad788ae221a917e76492a4f55c7e741"),
+            url: "https://github.com/go-acoustic/Connect/releases/download/2.1.5/Connect_XCFramework_Debug.zip",
+            checksum: "d9a0bdb98267812bcada1a59c6236f6a369921e0f91622aebdb7e6faeb63bb9c"),
     ]
 )
