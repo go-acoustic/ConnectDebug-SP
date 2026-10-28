@@ -27,15 +27,15 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Connect",
-            url: "https://github.com/go-acoustic/Connect/releases/download/2.2.16/Connect_XCFramework_Debug.zip",
-            checksum: "628979c6856b4b8ddd5b81a5a9b2acbb750b7ec18f0471adf9daf94087cc2af9"),
+            url: "https://github.com/go-acoustic/Connect/releases/download/2.2.17/Connect_XCFramework_Debug.zip",
+            checksum: "8a235d8509ac75f47844e4c78de114d4090d3583da8d4144708dcfc0e0d66ca8"),
         .binaryTarget(
             name: "Tealeaf",
-            url: "https://github.com/go-acoustic/Connect/releases/download/2.2.16/Tealeaf_XCFramework_Debug.zip",
-            checksum: "e0f552bc43146452d4d4e0b3647d197a6a082343fbb283faf0b290b0383cc45c"),
+            url: "https://github.com/go-acoustic/Connect/releases/download/2.2.17/Tealeaf_XCFramework_Debug.zip",
+            checksum: "9ecd0636c9e9bd16c505e134b917a5866ae7d216265ab150bfd650ac4e1fb8e6"),
         .binaryTarget(
             name: "EOCore",
-            url: "https://github.com/go-acoustic/Connect/releases/download/2.2.16/EOCore_XCFramework_Debug.zip",
-            checksum: "59462a55ea44a229bdc93a525c5033878cffecca4901843982b058be680f1d24"),
+            url: "https://github.com/go-acoustic/Connect/releases/download/2.2.17/EOCore_XCFramework_Debug.zip",
+            checksum: "4dc3d8b17df559d8cc69f8162494cf869bbd2068ec9bb8f14f59d2cede5a5dff"),
     ]
 )
